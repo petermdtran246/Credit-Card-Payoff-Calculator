@@ -1,0 +1,189 @@
+/* General Page Styling - Fintech Navy & Sky Blue Theme */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+    background-color: #f0f4f8;
+    color: #1e293b;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #0f172a;
+    color: #f8fafc;
+    text-align: center;
+    padding: 18px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.75rem;
+    letter-spacing: -0.5px;
+}
+
+footer {
+    margin-top: 50px;
+    font-size: 0.9rem;
+    color: #94a3b8;
+}
+
+main {
+    max-width: 860px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Input Form Card */
+#calculator-container {
+    background-color: #ffffff;
+    padding: 28px;
+    border-radius: 10px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.05);
+    max-width: 480px;
+}
+
+.input-group {
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-group label {
+    font-weight: 600;
+    color: #334155;
+}
+
+.input-group input {
+    padding: 9px 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    width: 165px;
+    font-size: 1rem;
+    color: #0f172a;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+/* Action Buttons */
+.button-group {
+    margin-top: 22px;
+    display: flex;
+    gap: 12px;
+}
+
+button {
+    padding: 10px 18px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+.calculator-btn {
+    background-color: #2563eb;
+    color: #ffffff;
+}
+
+.calculator-btn:hover {
+    background-color: #1d4ed8;
+}
+
+.reset-btn {
+    background-color: #e2e8f0;
+    color: #475569;
+}
+
+.reset-btn:hover {
+    background-color: #cbd5e1;
+}
+
+/* Error Notification Box */
+#errorBox {
+    background-color: #fef2f2;
+    border: 1px solid #fecaca;
+    padding: 12px 16px;
+    border-radius: 6px;
+}
+
+/* Results Table Container */
+#results-container {
+    background-color: #ffffff;
+    padding: 28px;
+    border-radius: 10px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.05);
+}
+
+#results-container h2 {
+    margin-top: 0;
+    color: #0f172a;
+}
+
+#resultsTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    border: 1px solid #cbd5e1;
+}
+
+#resultsTable th {
+    background-color: #1e3a8a;
+    color: #ffffff;
+    padding: 12px 15px;
+    border: 1px solid #1e3a8a;
+    text-align: center;
+    font-weight: 600;
+}
+
+#resultsTable td {
+    padding: 10px 15px;
+    border-bottom: 1px solid #e2e8f0;
+    border-left: 1px solid #e2e8f0;
+    font-variant-numeric: tabular-nums;
+}
+
+#resultsTable td:first-child {
+    text-align: center;
+    font-weight: 600;
+    color: #475569;
+}
+
+#resultsTable td:nth-child(n+2) {
+    text-align: right;
+}
+
+/* Soft Ice-Blue Zebra Striping */
+#resultsBody tr:nth-child(even) {
+    background-color: #eff6ff;
+}
+
+/* Bold Total Row */
+#resultsBody tr.total-row {
+    font-weight: 700;
+    background-color: #dbeafe;
+    border-top: 2px solid #1e3a8a;
+    color: #0f172a;
+}
+
+#summary-text {
+    text-align: center;
+    color: #1e3a8a;
+    font-size: 1.05rem;
+    background-color: #f8fafc;
+    padding: 14px;
+    border-radius: 6px;
+    border: 1px solid #e2e8f0;
+}
