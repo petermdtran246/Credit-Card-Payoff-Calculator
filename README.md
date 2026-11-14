@@ -2,10 +2,6 @@
 
 A responsive web application that calculates a complete, month-by-month repayment schedule for credit card debt based on the user's current balance, Annual Percentage Rate (APR), and planned monthly payment.
 
-## Live Demo
-
-- **Hosted Link:** `http://ucusername.ksshosting.com/project05/` *(Replace `ucusername` with your KSSHosting username)*
-
 ## Features
 
 - **Month-by-Month Payoff Schedule:** Dynamically generates an itemized table displaying the Month, Beginning Balance, Interest Amount, Payment, and Ending Balance until the remaining balance reaches `$0.00`.
